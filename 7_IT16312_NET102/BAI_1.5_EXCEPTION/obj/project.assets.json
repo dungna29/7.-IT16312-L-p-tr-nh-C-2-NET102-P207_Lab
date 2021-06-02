@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\DungNAPC\\.nuget\\packages\\": {}
+    "C:\\Users\\Dungna29\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Google Driver Dungna29FPT\\8. Demo\\Demo C#2\\SM21_Block1\\7.-IT16312-L-p-tr-nh-C-2-NET102-P207_Lab\\7_IT16312_NET102\\BAI_1.5_EXCEPTION\\BAI_1.5_EXCEPTION.csproj",
+      "projectUniqueName": "D:\\Google Driver Dungna29\\8. Demo\\Demo C#2\\SM21_Block1\\7.-IT16312-L-p-tr-nh-C-2-NET102-P207_Lab\\7_IT16312_NET102\\BAI_1.5_EXCEPTION\\BAI_1.5_EXCEPTION.csproj",
       "projectName": "BAI_1.5_EXCEPTION",
-      "projectPath": "F:\\Google Driver Dungna29FPT\\8. Demo\\Demo C#2\\SM21_Block1\\7.-IT16312-L-p-tr-nh-C-2-NET102-P207_Lab\\7_IT16312_NET102\\BAI_1.5_EXCEPTION\\BAI_1.5_EXCEPTION.csproj",
-      "packagesPath": "C:\\Users\\DungNAPC\\.nuget\\packages\\",
-      "outputPath": "F:\\Google Driver Dungna29FPT\\8. Demo\\Demo C#2\\SM21_Block1\\7.-IT16312-L-p-tr-nh-C-2-NET102-P207_Lab\\7_IT16312_NET102\\BAI_1.5_EXCEPTION\\obj\\",
+      "projectPath": "D:\\Google Driver Dungna29\\8. Demo\\Demo C#2\\SM21_Block1\\7.-IT16312-L-p-tr-nh-C-2-NET102-P207_Lab\\7_IT16312_NET102\\BAI_1.5_EXCEPTION\\BAI_1.5_EXCEPTION.csproj",
+      "packagesPath": "C:\\Users\\Dungna29\\.nuget\\packages\\",
+      "outputPath": "D:\\Google Driver Dungna29\\8. Demo\\Demo C#2\\SM21_Block1\\7.-IT16312-L-p-tr-nh-C-2-NET102-P207_Lab\\7_IT16312_NET102\\BAI_1.5_EXCEPTION\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DungNAPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dungna29\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

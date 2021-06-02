@@ -1,4 +1,0 @@
-F:\Google Driver Dungna29FPT\8. Demo\Demo C#2\SM21_Block1\7.-IT16312-L-p-tr-nh-C-2-NET102-P207_Lab\7_IT16312_NET102\BAI_2.3_PARTIAL_CLASS_METHOD\obj\Debug\net5.0\BAI_2.3_PARTIAL_CLASS_METHOD.GeneratedMSBuildEditorConfig.editorconfig
-F:\Google Driver Dungna29FPT\8. Demo\Demo C#2\SM21_Block1\7.-IT16312-L-p-tr-nh-C-2-NET102-P207_Lab\7_IT16312_NET102\BAI_2.3_PARTIAL_CLASS_METHOD\obj\Debug\net5.0\BAI_2.3_PARTIAL_CLASS_METHOD.AssemblyInfoInputs.cache
-F:\Google Driver Dungna29FPT\8. Demo\Demo C#2\SM21_Block1\7.-IT16312-L-p-tr-nh-C-2-NET102-P207_Lab\7_IT16312_NET102\BAI_2.3_PARTIAL_CLASS_METHOD\obj\Debug\net5.0\BAI_2.3_PARTIAL_CLASS_METHOD.AssemblyInfo.cs
-F:\Google Driver Dungna29FPT\8. Demo\Demo C#2\SM21_Block1\7.-IT16312-L-p-tr-nh-C-2-NET102-P207_Lab\7_IT16312_NET102\BAI_2.3_PARTIAL_CLASS_METHOD\obj\Debug\net5.0\BAI_2.3_PARTIAL_CLASS_METHOD.csproj.CoreCompileInputs.cache

@@ -48,14 +48,43 @@ namespace BAI_2._5_NULLABLE_TYPED
             // int temp;
             // temp 1 = null;
             int? temp2;                 //Hoặc Nullable<int> temp2;
-            temp2 = null;
-            temp2 = 10;
+
+            temp2 = null;               //Có thể gán null 
+            temp2 = 10;                 //Gán giá trị như biến bình thường
             if (temp2!=null)
             {
-                
+                int value = temp2.Value; //Lấy giá trị trong biến nullable
             }
-
             #endregion
+
+            /*2.  NULLABLE TYPED
+                  + Cú pháp: 
+                      - Nullable<T> tên biến;
+                      - T? tên biến;
+                  + Cần gán gia trị cho biến khi khai báo nếu không sẽ bị lỗi và nên kiểm tra giá tị trước khi dùng bằng HasValue
+                  + Dùng phương thức GetValueOrDefault() để lấy giá mặc định của kiểu dữ liệu
+                  + Dùng toán tử ?? thực hiện gán Nullable Type cho Non-Nullable Type
+
+           */
+            Nullable<int> temp3 = null;
+            Nullable<int> temp4 = 11;
+            int? temp5 = 100;
+            int?[] arr = new int?[5];
+
+            if (temp4.HasValue) //Kiểm tra giá trị trước dùng
+            {
+                Console.WriteLine(temp3.Value);
+            }
+            else
+            {
+                Console.WriteLine("Giá trị là empty");
+            }
+            //GetValueOrDefault() phương thức lấy giá trị mặc định của kiểu dữ liệu
+            Console.WriteLine(temp3.GetValueOrDefault());//Giá trị mặc định = 0
+
+            //Toán tử ?? thực hiện gán Nullable Type cho Non-Nullable type
+            int? temp6 = null;
+            int temp7 = temp6 ?? 0;//Temp7 = temp6 nếu temp6 khác null, temp7 = 0 nếu temp6 = null
         }
 
 

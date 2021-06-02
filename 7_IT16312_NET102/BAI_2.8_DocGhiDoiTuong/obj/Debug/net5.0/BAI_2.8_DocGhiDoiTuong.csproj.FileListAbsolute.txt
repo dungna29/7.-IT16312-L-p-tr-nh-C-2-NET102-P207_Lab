@@ -1,0 +1,15 @@
+F:\Google Driver Dungna29FPT\8. Demo\Demo C#2\SM21_Block1\7.-IT16312-L-p-tr-nh-C-2-NET102-P207_Lab\7_IT16312_NET102\BAI_2.8_DocGhiDoiTuong\bin\Debug\net5.0\BAI_2.8_DocGhiDoiTuong.exe
+F:\Google Driver Dungna29FPT\8. Demo\Demo C#2\SM21_Block1\7.-IT16312-L-p-tr-nh-C-2-NET102-P207_Lab\7_IT16312_NET102\BAI_2.8_DocGhiDoiTuong\bin\Debug\net5.0\BAI_2.8_DocGhiDoiTuong.deps.json
+F:\Google Driver Dungna29FPT\8. Demo\Demo C#2\SM21_Block1\7.-IT16312-L-p-tr-nh-C-2-NET102-P207_Lab\7_IT16312_NET102\BAI_2.8_DocGhiDoiTuong\bin\Debug\net5.0\BAI_2.8_DocGhiDoiTuong.runtimeconfig.json
+F:\Google Driver Dungna29FPT\8. Demo\Demo C#2\SM21_Block1\7.-IT16312-L-p-tr-nh-C-2-NET102-P207_Lab\7_IT16312_NET102\BAI_2.8_DocGhiDoiTuong\bin\Debug\net5.0\BAI_2.8_DocGhiDoiTuong.runtimeconfig.dev.json
+F:\Google Driver Dungna29FPT\8. Demo\Demo C#2\SM21_Block1\7.-IT16312-L-p-tr-nh-C-2-NET102-P207_Lab\7_IT16312_NET102\BAI_2.8_DocGhiDoiTuong\bin\Debug\net5.0\BAI_2.8_DocGhiDoiTuong.dll
+F:\Google Driver Dungna29FPT\8. Demo\Demo C#2\SM21_Block1\7.-IT16312-L-p-tr-nh-C-2-NET102-P207_Lab\7_IT16312_NET102\BAI_2.8_DocGhiDoiTuong\bin\Debug\net5.0\ref\BAI_2.8_DocGhiDoiTuong.dll
+F:\Google Driver Dungna29FPT\8. Demo\Demo C#2\SM21_Block1\7.-IT16312-L-p-tr-nh-C-2-NET102-P207_Lab\7_IT16312_NET102\BAI_2.8_DocGhiDoiTuong\bin\Debug\net5.0\BAI_2.8_DocGhiDoiTuong.pdb
+F:\Google Driver Dungna29FPT\8. Demo\Demo C#2\SM21_Block1\7.-IT16312-L-p-tr-nh-C-2-NET102-P207_Lab\7_IT16312_NET102\BAI_2.8_DocGhiDoiTuong\obj\Debug\net5.0\BAI_2.8_DocGhiDoiTuong.GeneratedMSBuildEditorConfig.editorconfig
+F:\Google Driver Dungna29FPT\8. Demo\Demo C#2\SM21_Block1\7.-IT16312-L-p-tr-nh-C-2-NET102-P207_Lab\7_IT16312_NET102\BAI_2.8_DocGhiDoiTuong\obj\Debug\net5.0\BAI_2.8_DocGhiDoiTuong.AssemblyInfoInputs.cache
+F:\Google Driver Dungna29FPT\8. Demo\Demo C#2\SM21_Block1\7.-IT16312-L-p-tr-nh-C-2-NET102-P207_Lab\7_IT16312_NET102\BAI_2.8_DocGhiDoiTuong\obj\Debug\net5.0\BAI_2.8_DocGhiDoiTuong.AssemblyInfo.cs
+F:\Google Driver Dungna29FPT\8. Demo\Demo C#2\SM21_Block1\7.-IT16312-L-p-tr-nh-C-2-NET102-P207_Lab\7_IT16312_NET102\BAI_2.8_DocGhiDoiTuong\obj\Debug\net5.0\BAI_2.8_DocGhiDoiTuong.csproj.CoreCompileInputs.cache
+F:\Google Driver Dungna29FPT\8. Demo\Demo C#2\SM21_Block1\7.-IT16312-L-p-tr-nh-C-2-NET102-P207_Lab\7_IT16312_NET102\BAI_2.8_DocGhiDoiTuong\obj\Debug\net5.0\BAI_2.8_DocGhiDoiTuong.dll
+F:\Google Driver Dungna29FPT\8. Demo\Demo C#2\SM21_Block1\7.-IT16312-L-p-tr-nh-C-2-NET102-P207_Lab\7_IT16312_NET102\BAI_2.8_DocGhiDoiTuong\obj\Debug\net5.0\ref\BAI_2.8_DocGhiDoiTuong.dll
+F:\Google Driver Dungna29FPT\8. Demo\Demo C#2\SM21_Block1\7.-IT16312-L-p-tr-nh-C-2-NET102-P207_Lab\7_IT16312_NET102\BAI_2.8_DocGhiDoiTuong\obj\Debug\net5.0\BAI_2.8_DocGhiDoiTuong.pdb
+F:\Google Driver Dungna29FPT\8. Demo\Demo C#2\SM21_Block1\7.-IT16312-L-p-tr-nh-C-2-NET102-P207_Lab\7_IT16312_NET102\BAI_2.8_DocGhiDoiTuong\obj\Debug\net5.0\BAI_2.8_DocGhiDoiTuong.genruntimeconfig.cache

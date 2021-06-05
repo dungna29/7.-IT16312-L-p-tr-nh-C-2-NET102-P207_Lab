@@ -38,25 +38,25 @@ namespace BAI_2._8_DocGhiDoiTuong
             }
             return "Không thành công";
         }
-        public T FindObjectDungna(string id)
-        {
-            if (String.IsNullOrEmpty(id))
-            {
-                //Trả ra 1 object T
-            }
-            //Trả ra 1 object T
-            //return ;
-        }
-
-        // public int GetIndexObjectDungna(string id)
+        // public T FindObjectDungna(string id)
         // {
-        //     for (int i = 0; i < lstTemp.Count; i++)
+        //     if (String.IsNullOrEmpty(id))
         //     {
-        //         if (lstTemp[i].)
-        //         {
-        //             //Nghĩ thêm về cái này
-        //         }
+        //         //Trả ra 1 object T
         //     }
+        //     //Trả ra 1 object T
+        //     //return ;
         // }
+
+        public int GetIndexObjectDungna(dynamic id)
+        {
+            for (int i = 0; i < lstTemp.Count; i++)
+            {
+                if (lstTemp[i].)
+                {
+                    //Nghĩ thêm về cái này
+                }
+            }
+        }
     }
 }

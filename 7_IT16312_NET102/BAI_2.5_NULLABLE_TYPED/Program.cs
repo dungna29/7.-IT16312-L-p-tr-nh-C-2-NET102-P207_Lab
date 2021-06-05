@@ -42,7 +42,6 @@ namespace BAI_2._5_NULLABLE_TYPED
 
 
             #endregion
-
             #region Phần 2 nullable  Khi khai báo biến có khả năng nullable thì thêm vào ? sau kiểu dữ liệu
             //1. Không thể gán giá trị null cho biến kiểu int theo đúng định nghĩa
             // int temp;
@@ -51,7 +50,7 @@ namespace BAI_2._5_NULLABLE_TYPED
 
             temp2 = null;               //Có thể gán null 
             temp2 = 10;                 //Gán giá trị như biến bình thường
-            if (temp2!=null)
+            if (temp2 != null)
             {
                 int value = temp2.Value; //Lấy giá trị trong biến nullable
             }

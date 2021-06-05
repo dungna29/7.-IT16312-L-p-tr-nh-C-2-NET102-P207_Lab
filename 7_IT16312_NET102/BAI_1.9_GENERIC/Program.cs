@@ -15,7 +15,6 @@ namespace BAI_1._9_GENERIC
                 - Trong phần này mở rộng thêm, nếu muốn biến kiểu giá trị nhưng được truyền vào phương thức dạng tham chiếu (giống cách thức biến tham chiếu) thì khai báo tham số ở phương thức, cũng như khi gọi cần cho thêm từ khóa ref
          */
 
-
         #endregion
 
         #region GENERIC

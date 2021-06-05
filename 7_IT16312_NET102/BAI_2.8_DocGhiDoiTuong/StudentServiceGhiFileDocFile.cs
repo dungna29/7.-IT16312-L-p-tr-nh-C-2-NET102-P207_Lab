@@ -25,6 +25,7 @@ namespace BAI_2._8_DocGhiDoiTuong
                 new Student(2,"PH001112","B"),
                 new Student(3,"PH001113","C"),
                 new Student(4,"PH001114","D"),
+               
             };
         }
 

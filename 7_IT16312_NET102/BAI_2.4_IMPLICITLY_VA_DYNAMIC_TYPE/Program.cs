@@ -50,13 +50,13 @@ namespace BAI_2._4_IMPLICITLY_VA_DYNAMIC_TYPE
             #endregion
 
             #region Dynamic
-            //1. Khai báo các kiểu dữ liệu như var
+            //1. Khai báo các kiểu dữ liệu giống như var
             dynamic x1;
             dynamic x2 = 50;
             dynamic x3 = 9.6;
             dynamic x4 = "string";
 
-            //Khai báo kiểu đối tượng nặc danh
+            //Khai báo kiểu nặc danh
             var student = new
             {
                 id = "PH00532",

@@ -48,15 +48,15 @@ namespace BAI_2._8_DocGhiDoiTuong
         //     //return ;
         // }
 
-        public int GetIndexObjectDungna(dynamic id)
-        {
-            for (int i = 0; i < lstTemp.Count; i++)
-            {
-                if (lstTemp[i].)
-                {
-                    //Nghĩ thêm về cái này
-                }
-            }
-        }
+        // public int GetIndexObjectDungna(dynamic id)
+        // {
+        //     for (int i = 0; i < lstTemp.Count; i++)
+        //     {
+        //         if (lstTemp[i].)
+        //         {
+        //             //Nghĩ thêm về cái này
+        //         }
+        //     }
+        // }
     }
 }

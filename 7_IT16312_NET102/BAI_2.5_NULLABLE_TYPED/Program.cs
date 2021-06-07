@@ -11,7 +11,6 @@ namespace BAI_2._5_NULLABLE_TYPED
            
               + null chỉ có thể gán được cho các biến kiểu tham chiếu (biến có kiểu dữ liệu là các lớp), không thể gán null cho những biến có kiểu dữ liệu dạng tham trị như int, float, bool ...
            
-           
          */
 
         /*

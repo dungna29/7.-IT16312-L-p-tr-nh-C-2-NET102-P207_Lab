@@ -24,7 +24,7 @@ namespace BAI_3._1_LINQ_CacCauLenh
             //Gọi các ví dụ về lý thuyết lên để chạy
             Console.OutputEncoding = Encoding.GetEncoding("UTF-8");
             Program program = new Program();
-            ViduJoin();
+            ViduAllAny();
         }
 
         #region 1. Toán tử Where để lọc theo điều kiện trả về 1 danh sách hoặc 1 giá trị sau khi thỏa mãn điều kiện
@@ -159,6 +159,7 @@ namespace BAI_3._1_LINQ_CacCauLenh
                        where a.TrangThai == true //Đưa thêm điều kiện vào nếu cần
                        select new
                        {
+
                            //Select ra kết quả là các cột mới không phải là các cột có sẵn
                            MaSP = a.MaSP,//a là của bảng sản phẩm
                            TenTheLoai = c.TenTheLoai, //c là của bảng thể loại
@@ -185,7 +186,86 @@ namespace BAI_3._1_LINQ_CacCauLenh
             {
                 Console.WriteLine($"{x.MaSP} + {x.TenSP} + {x.TenNVTao} + {x.TenTheLoai}");
             }
+
+
+            //NGoài ra có thể kết hợp Join với GroupBy và các toán tử khác.
         }
+        #endregion
+
+        #region 6. Select giúp trả về 1 tập hợp giá trị từ 1 Collection (Ngoài ra tham khảo SelectMany = Tách String về Char)
+
+        public static void ViduSelect()
+        {
+            var temp1 = from a in _lstNhanViens
+                select a; //Trả về 1 lập đối tượng Nhân Viên
+            //In thử temp1
+            var temp2 = from a in _lstNhanViens
+                select a.TenNV;//Trả về 1 Tập giá trị Tên có kiểu String
+            //In thử temp2
+            foreach (var x in temp2)
+            {
+                Console.WriteLine(x);//Cách in 1 tập giá trị đơn
+            }
+
+            var temp3 = from a in _lstSanPhams
+                group a.MauSac by a.MauSac 
+                into g
+                select g.Key;//Trả về 1 tập giá trị mầu sắc có kiểu String
+            foreach (var x in temp3)
+            {
+                Console.Write(x + " ");//Cách in 1 tập giá trị đơn
+            }
+
+            var temp4 = from a in _lstNhanViens
+                select new
+                {
+                    Name = a.TenNV,
+                    Addr = a.DiaChi
+                };
+            foreach (var x in temp4)
+            {
+                Console.WriteLine(x.Name);
+            }
+            foreach (var x in temp4.SelectMany(c=>c.Name))
+            {
+                Console.WriteLine(x);
+            }
+
+        }
+
+
+        #endregion
+
+        #region ALL/ANY
+       
+        public static void ViduAllAny()
+        {
+            //All: Kiểm tra xem tất cả các phần tử trong dãy có thỏa mãn thì trả ra true
+            //Any: Kiểm tra xem tất cả các phần tử trong dãy chỉ cần có thỏa mãn thì trả ra true
+            var temp1 = _lsttTheLoais.All(c => c.TrangThai == true);
+            var temp2 = _lsttTheLoais.Any(c => c.TrangThai == true);
+            Console.WriteLine("All = " + temp1);
+            Console.WriteLine("Any = " + temp2);
+
+            TheLoai theLoaiNew = new TheLoai {Id = 1, MaTheLoai = "TL1", TenTheLoai = "Small", TrangThai = true};
+            //Để Contain 1 đối tượng với 1 tập đối tượng yêu cầu lớp Thể loại Implement Interface IEqualityComparer<TheLoai>
+            var temp3 = _lsttTheLoais.Contains(theLoaiNew,new TheLoai());
+            Console.WriteLine("Contains = " + temp3);
+        }
+        #endregion
+
+        #region Arrgreation - SUM - MIN - MAX - COUNT - AVERAGE
+
+        public static void ViduArregate()
+        {
+            //Tính tổng số lượng máy mầu đen mà của hàng đang có
+            var soLuongMayMauDen = _lstSanPhams.Count(c=>c.MauSac == "Đen");
+            
+            //Tính trung bình số tiền trên 1 máy bán ra ở của hàng
+            var soTienTrungBinh = _lstSanPhams.Average(c => c.GiaBan);
+        }
+        
+
         #endregion
     }
 }

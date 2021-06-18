@@ -31,7 +31,7 @@ namespace BAI_3._1_LINQ_CacCauLenh
                 new SanPham{Id = 7,MaSP = "SP7",TenSP = "Iphone 7",MauSac = "Trắng",TrongLuong = 700,KickThuoc = 11,GiaNhap = 12000000,GiaBan = 22000000,NgayTao = new DateTime(2021, 11, 5),TrangThai = false,MoTa = null,IdTheLoai = 1,IdNhanVien = 2},
                 new SanPham{Id = 8,MaSP = "SP8",TenSP = "Iphone 8",MauSac = "Đen",TrongLuong = 800,KickThuoc = 8,GiaNhap = 9000000,GiaBan = 18000000,NgayTao = new DateTime(2021, 10, 5),TrangThai = false,MoTa = null,IdTheLoai = 1,IdNhanVien = 3},
                 new SanPham{Id = 9,MaSP = "SP9",TenSP = "Iphone 9",MauSac = "Trắng",TrongLuong = 800,KickThuoc = 9,GiaNhap = 13000000,GiaBan = 23000000,NgayTao = new DateTime(2021, 1, 5),TrangThai = true,MoTa = null,IdTheLoai = 2,IdNhanVien = 4},
-                new SanPham{Id = 10,MaSP = "SP10",TenSP = "Iphone 10",MauSac = "Càng",TrongLuong = 900,KickThuoc = 12,GiaNhap = 13000000,GiaBan = 24000000,NgayTao = new DateTime(2021, 2, 5),TrangThai = true,MoTa = null,IdTheLoai = 2,IdNhanVien = 1}
+                new SanPham{Id = 10,MaSP = "SP10",TenSP = "Iphone 10",MauSac = "Xanh",TrongLuong = 900,KickThuoc = 12,GiaNhap = 13000000,GiaBan = 24000000,NgayTao = new DateTime(2021, 2, 5),TrangThai = true,MoTa = null,IdTheLoai = 2,IdNhanVien = 1}
             };
         }
         public List<TheLoai> GetListTheLoais()
@@ -40,7 +40,7 @@ namespace BAI_3._1_LINQ_CacCauLenh
             {
                 new TheLoai{Id = 1,MaTheLoai = "TL1",TenTheLoai = "Small",TrangThai = true},
                 new TheLoai{Id = 2,MaTheLoai = "TL2",TenTheLoai = "Large",TrangThai = true},
-                new TheLoai{Id = 3,MaTheLoai = "TL3",TenTheLoai = "Full Size",TrangThai = true},
+                new TheLoai{Id = 3,MaTheLoai = "TL3",TenTheLoai = "Full Size",TrangThai = false},
             };
         }
     }

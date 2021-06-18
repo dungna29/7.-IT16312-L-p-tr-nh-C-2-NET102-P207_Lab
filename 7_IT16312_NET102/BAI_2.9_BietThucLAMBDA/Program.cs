@@ -6,7 +6,7 @@ namespace BAI_2._9_BietThucLAMBDA
 {
     class Program
     {
-        #region Lamda định nghĩa
+        #region Lambda định nghĩa
 
         /*
          * Biểu thức lambda còn gọi là biểu thức (Anonymous), một biểu thức khai báo giống phương thức nhưng thiếu tên. Cú pháp để khai báo biểu thức lambda là sử dụng toán dử => như sau:
